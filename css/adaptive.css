@@ -1,0 +1,284 @@
+
+@media(max-width:768px) {
+    .header__logo>img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .list__item, .list__li, .aboutme__descr {
+        font-size: 14px;
+    }
+    
+    /* section "about" */
+
+    .about__title {
+        font-size: 22px;
+    }
+
+    .about__descr {
+        font-size: 14px;
+    }
+
+    .aboutme__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutme__img {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .aboutme__img>img {
+        width: 282px;
+        height: 400px;
+    }
+
+    .aboutme__text {
+        height: 350px;
+    }
+
+    .aboutme__title {
+        font-size: 22px;
+    }
+
+    /* section "Gallery" */
+
+    .gallery__item {
+        font-size: 14px;
+    }
+
+    .gallery__block>img {
+        width: 304px;
+        height: 322px;
+    }
+
+    /* section "service" */
+    .services__descr {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:658px) {
+    .aboutme__text {
+        line-height: 21px;
+        letter-spacing: 0;
+    }
+
+    .about__img>img {
+        width: 350px;
+        left: 0px;
+        top: 151px;
+    }
+
+    .gallery__block>img {
+        width: 256px;
+    }
+
+    .services__info {
+        font-size: 13px;
+    }
+
+    .services__descr {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:546px) {
+    .header__menu {
+        display: block;
+        position: absolute;
+        top: 80px;
+        height: 350px;
+        right: -450px;
+        background: rgba(187, 186,	186, 0.5);
+        z-index: 2;
+        transition: right 500ms cubic-bezier(0.65, 0.065, 0.675, 0.676);
+    }
+    
+    .header__burger {
+        display: block;
+        position: relative;
+    }
+    
+    /* section "About" */
+    
+    .about__img>img {
+        width: 320px;
+        left: 0px;
+        top: 168px;
+    }
+    
+    /* section "services" */
+    .block {
+        height: 163px;
+    }
+    
+    .services__info {
+        font-size: 12px;
+    }
+
+    .services__descr {
+        line-height: 12px;
+    }
+
+    /* section gallery  */
+    
+    .gallery__block>img {
+        width: 239px;
+        height: 250px;
+    }
+}
+
+@media(max-width:510px) {
+    .about__img>img {
+        width: 280px;
+        left: 0px;
+        top: 190px;
+    }
+}
+
+@media(max-width:487px) {
+    .gallery__block>img{
+        width: 207px;
+    }
+}
+
+@media (max-width:418px) {
+    
+    /* section "About" */
+    
+    .about__img>img {
+        width: 222px;
+        left: 0px;
+        top: 230px;
+    }
+    
+    .aboutme__title {
+        font-size: 24px;
+    }
+
+    .aboutme__descr {
+        font-size: 12px;
+    }
+
+    .aboutme__text {
+        line-height: 18px;
+    }
+    
+    /* section "Services" */
+    
+    .services__container {
+        flex-direction: column;
+    }
+    
+    .block {
+        margin-left: 0;
+        height: 105px;
+    }
+
+    .block:not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+
+    /* section "Gallery" */
+    
+    .gallery__block>img {
+        width: 204px;
+    }
+
+    /* section "Price" */
+    
+    .price {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .price__container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .price__text {
+        padding-bottom: 25px;
+    }
+
+    .price__text>.price__paragraph, .price__descr {
+        font-size: 14px;
+    }
+    
+    /*Section "Footer"  */
+
+    .footer__adress, .footer__mail {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:414px) {
+    .about__title {
+        font-size: 20px;
+    }
+    
+    .gallery__block>img {
+        width: 157px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+
+    .gallery__block>img {
+        width: 157px;
+    }
+    
+}
+
+@media(max-width:379px) {
+
+    .about__img>img {
+        width: 179px;
+        left: 0px;
+        top: 249px;
+    }
+    
+    .aboutme__img>img {
+        width: 234px;
+        height: 363px;
+    }
+}
+
+
+@media(max-width:320px) {
+    
+    /* section "About" */
+    
+    .about__title, .aboutme__title {
+        font-size: 21px;
+    }
+
+    .about__img>img {
+        width: 200px;
+        left: -21px;
+        top: 235px;
+    }
+    
+    .aboutme__descr {
+        font-size: 10px;
+    }
+    
+    /* section "Gallery" */
+    
+    .gallery__block>img {
+        width: 132px;
+    }
+    
+    /* footer */
+    
+    .footer__adress, .footer__mail {
+        font-size: 12px;
+    }
+
+    .footer__text {
+        font-size: 14px;
+    }
+}

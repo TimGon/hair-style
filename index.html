@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair stylist</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/brands.min.css">
+    <link rel="stylesheet" href="css/brands.css">
+
+    <script src="https://kit.fontawesome.com/bf8b7d3f0f.js" crossorigin="anonymous"></script>
+    <script defer src="/js/script.js"></script>
+</head>
+<body>
+    <!-- Arrow-Up
+    <button class="arrowbtn"></button> -->
+    
+    <!-- Modal window -->
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container container flex">
+            <a class="header__logo">
+                <img src="img/logo.png" alt="logotype">
+            </a>
+            
+            <nav class="header__menu">
+                <ul class="header__menulist list">
+                    <li class="list__li"> <a class="list__item lst" href="#">Главная</a></li>
+                    <li class="list__li"> <a class="list__item lst" href="#">Обо мне</a></li>
+                    <li class="list__li"> <a class="list__item lst" href="#">Услуги</a></li>
+                    <li class="list__li"> <a class="list__item lst" href="#">Портфолио</a></li>
+                    <li class="list__li"> <a class="list__item lst" href="#">Прайс</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header__social">
+                <a class="list__item vk" href="#"><i class="fa-brands fa-vk"></i></a>
+                <a class="list__item telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a class="list__item instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            
+        <!--<div class="header__btn">
+                <button class="header__contact btn"></button>
+            </div> -->
+            
+            <div class="header__burger">
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="about">
+            <div class="about__container container flex">
+                <div class="about__info">
+                    <h1 class="about__title title">Привет</h1>
+                    <h1 class="about__title">Я надежда</h1>
+                    <span class="about__descr">Парикмахер</span>
+                    
+                    <div class="about__btn-wrap">
+                        <button class="btn about__record">Записаться</button>
+                    </div>
+                </div>
+                
+                <div class="about__img">
+                    <img src="img/photo.png" alt="Hair-stylist">
+                </div>
+            </div>
+        </section>
+        
+        <section class="aboutme">
+            <div class="aboutme__container container flex">
+                <div class="aboutme__img">
+                    <img class="aboutme__femaleimg" src="/img/female.png" alt="female">
+                </div>
+    
+                <div class="aboutme__text">
+                    <h2 class="aboutme__title">Обо мне</h2>
+                    <p class="aboutme__descr">Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</p>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section class="services">
+            <div class="services__container container flex">    
+                <div class="services__haircut block">
+                    <h3 class="services__info">Покрашивание Волос</h3>
+                    <span class="services__line"></span>
+                    <p class="services__descr">Захотелось перемен? В этом тебе поможет окрашивание волос в любой цвет, который ты тоже хочешь.</p>
+                </div>
+    
+                <div class="services__painting block">
+                    <h3 class="services__info">Укладка Волос</h3>
+                    <span class="services__line"></span>
+                    <p class="services__descr">Стильная стрижка волос позволит создать свой неповторимый образ.</p>
+                </div>
+                
+                <div class="services__hairstyling block">
+                    <h3 class="services__info">Любые стрижки</h3>
+                    <span class="services__line"></span>
+                    <p class="services__descr">Благодаря использованию современного инструмента, могут создавать прически в разных техниках, и красиво укладывать волосы</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="gallery">
+            <div class="gallery__contain container">
+                <div class="gallery__category">
+                    <ul class="gallery__list">
+                        <li class="gallery__item active">Все</li>
+                        <li class="gallery__item">Взрослые</li>
+                        <li class="gallery__item">Детские</li>
+                        <li class="gallery__item">Покрашенные</li>
+                        <li class="gallery__item">Уложненные</li>
+                    </ul>
+                </div>
+                
+                <div class="gallery__container">
+                    <div class="gallery__block haircut">
+                        <img src="img/colorhair.jpg" alt="paintinghair">
+                    </div>
+                    
+                    <div class="gallery__block haircolor">
+                        <img src="img/menhair.jpg" alt="menhair">
+                    </div>
+                    
+                    <div class="gallery__block hairfemale">
+                        <img src="img/kidshair.jpg" alt="kidhair">
+                    </div>
+    
+                    <div class="gallery__block hairmale">
+                        <img src="img/mens.jpg" alt="stylemenhair">
+                    </div>
+                    
+                    <div class="gallery__block hair">
+                        <img src="img/longhair.jpg" alt="longhair">
+                    </div>
+                    
+                    <div class="gallery__block hairstyling">
+                        <img src="img/female.jpg" alt="femalehair">
+                    </div>
+                    
+                    <div class="gallery__block hairmale">
+                        <img src="img/mens.jpg" alt="stylemenhair">
+                    </div>
+                    
+                    <div class="gallery__block hair">
+                        <img src="img/longhair.jpg" alt="longhair">
+                    </div>
+                    
+                    <div class="gallery__block hairstyling">
+                        <img src="img/female.jpg" alt="femalehair">
+                    </div>
+                </div>
+    
+                <div class="gallery__btn">
+                    <button class="btn gallery__nextbtn">Показать ещё</button>
+                </div>
+            </div>
+        </section>
+    
+        <section class="price">
+            <div class="price__container container">
+                <div class="price__text">
+                    <span class="price__paragraph">Стильная стрижка это круто!</span>
+                    <span class="price__descr">Сделай запись и будь крутым!</span>
+                </div>
+                
+                <div class="price__btncontain">
+                    <button class="btn price__btn">Записаться</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__contact">
+                <a class="footer__adress" href="#">3rd Floor, Santa Monica Beach, CA, San Francisco</a>
+                <a class="footer__mail" href="#">hairstyle@mail.ru</a>
+            </div>
+            
+            <div class="footer__social">
+                <a class="list__vk" href="#"><i class="fa-brands fa-vk"></i></a>
+                <a class="list__telegram" href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a class="list__instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <div class="footer__corpyright">
+                <span class="footer__text">&copy; HairStyle 2022</span>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>

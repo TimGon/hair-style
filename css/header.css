@@ -1,0 +1,125 @@
+.header {
+    height: 80px;
+    align-items: center;
+    padding: 10px 0 0 0;
+    background: url('/img/brick.jpg');
+}
+
+.header__container {
+    height: 80px;
+}
+
+.header__logo>img {
+    width: 30px;
+    height: 30px;
+}
+
+.list__li:not(:first-of-type), .list__icon:not(:first-of-type) {
+    margin-left: 15px;
+}
+
+.list__item {
+    color: rgb(0, 0, 0);
+    transition: all 0.3s;
+    animation: both;
+}
+
+.lst {
+    position: relative;
+}
+
+.list__li a{
+    display: inline-block;
+    line-height: 1;
+}
+.list__li a:after {
+    background-color: rgb(6, 61, 179); 
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.list__li a:hover:after,
+.list__li a:focus:after {
+    width: 100%;
+}
+
+.list__item:hover {
+    color: rgb(65, 4, 163);
+}
+
+.vk {
+    color: rgb(4, 34, 170);
+}
+
+.instagram {
+    color: rgb(204, 8, 41);
+}
+
+.telegram {
+    color: rgb(8, 89, 182);
+}
+
+/*button "Burger-Menu"  */
+
+.header__menu.show {
+    right: 0;
+}
+
+.header__burger {
+    background: transparent;
+    position: relative;
+    border: 0;
+    width: 24px;
+    height: 14px;
+    display: none;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.header__burger span {
+    position: absolute;
+    background-color: #d4af08;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    top: 6px;
+    transition: ease-in-out 0.5s;
+}
+
+.header__burger:before,
+.header__burger:after {
+    content: '';
+    background-color: #d4af08;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    transition: ease-in-out 0.5s;
+}
+
+.header__burger:before {
+    top: 0;
+}
+
+.header__burger:after{
+    bottom: 0;
+}
+
+.header__burger.active:before{
+    transform: rotate(45deg);
+    top: 3px;
+}
+
+.header__burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+}
+
+.header__burger.active span {
+    transform: scale(0);
+}

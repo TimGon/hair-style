@@ -1,0 +1,125 @@
+@import 'normalize.css';
+@import 'header.css';
+@import 'about.css';
+@import 'services.css';
+@import 'gallery.css';
+@import 'footer.css';
+@import 'adaptive.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.list__li, .list__icon, .gallery__item {
+    display: inline;
+}
+
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background: rgb(235, 176, 15);
+    padding: 14px 25px;
+    color: azure;
+    border: none;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(187, 124, 7);
+    box-shadow: 5px 2px 2px rgb(235, 176, 15);
+}
+
+@media(max-width:768px) {
+    .container {
+        max-width: 620px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        padding: 10px 14px;
+    }
+    
+}
+
+@media(max-width:658px) {
+    .container {
+        max-width: 520px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:546px) {
+    .container {
+        max-width: 487px;
+    }
+        
+    .list__li:not(:first-of-type) {
+        margin-left: 0;
+    }
+    
+    .list__li {
+        display: block;
+        padding: 15px;
+    }   
+}
+
+@media(max-width:487px) {
+    .container {
+        max-width: 420px;
+    }
+}
+
+@media(max-width:414px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .btn {
+        padding: 8px 13px;
+        font-size: 14px;
+    }
+
+    .block {
+        width: 229px;
+        height: 105px;
+    }
+}
+
+@media(max-width:320px) {
+    .container {
+        max-width: 270px;
+    }
+
+    .btn {
+        padding: 11px;
+    }
+}
